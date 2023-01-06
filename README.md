@@ -74,5 +74,5 @@ Représenation de l'algorithme avec 8 drones :
 
 <p float="left">
 	<img src="/img/exemple2_1.PNG" alt="exemple2_1" width="350"/>
-	<img src="/img/exemple2_2.PNG" alt="exemple2_2" width="350"/>
+	<img src="/img/exemple2_2.PNG" alt="exemple2_2" width="400"/>
 </p>
