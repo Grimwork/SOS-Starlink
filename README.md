@@ -26,11 +26,19 @@ Dans cette simulation nous avons choisis de représenter le système à l'aide d
 10 autres drone ont eux à charge de faire un relais réseau de la station au sol jusqu'à la zone critique identifié.
 
 Sur la figure ci-dessous nous pouvons remarquer les deux types de drones, ainsi que la modélisation de la ville.
-
 ![Les deux types de drones](/img/EssembleDesDronesSurUnity.PNG "Les deux types de drones")
 
-|   | |
+|||
 | ------------- | ------------- |
 | ![Ville1](/img/planVille1.PNG "Ville1")  | ![Ville2](/img/planVille2.PNG "VillePlanDessus")  |
 
- 
+Comme nous pouvons le voir les différents batiments de la ville ont des couleurs associé. Ces couleurs représente l'importance qu'ils representent.
+
+- Vert -> Low
+- Cyan -> Medium
+- Rouge -> High
+- Violet  -> Very High
+
+ Lorsque l'on lance la simulation une zone critique aléatoire est choisis dans la ville.
+![ZoneCritique](/img/zoneCritique.PNG "ZoneCritique")
+
