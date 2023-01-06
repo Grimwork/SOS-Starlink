@@ -1,5 +1,5 @@
 # SOS Starlink
-###### Fait par "Enzo Rudy Sekkai" et Grimwork
+###### Fait par EnzoRudySEKKAI et Grimwork
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
@@ -40,6 +40,39 @@ Comme nous pouvons le voir les différents batiments de la ville ont des couleur
 - Rouge -> High
 - Violet  -> Very High
 
- Lorsque l'on lance la simulation une zone critique aléatoire est choisis dans la ville.
+ Lorsque l'on lance la simulation une zone critique aléatoire est choisis dans la ville. Elle est représenté par un carrée ou rectangle rouge.
  
 <img src="/img/zoneCritique.PNG" alt="ZoneCritique" width="500"/>
+
+Pour modélisé le champ d'action des drones nous avons choisis d'utiliser les "SphereCollider" fourni par Unity. Sachant que la simulation est à échelle réel, le rayon de ces derniers est de 300 mètre comme spécifier dans le cahier des charges. Le carré visible sous eux est la représentation de ce que les caméras percoivent.
+
+<img src="/img/colliderDrone.PNG" alt="colliderDrone" width="350"/>
+
+### Algorithme d'optimisation de la répartition des drones
+
+Dans un premier temps pour répartire les drones de manière optimisé, il faut savoir si nous pouvons la recouvrir entièrement. Sachant que nous connaisssons la taille de la zone en avance il suffit alors de calculer l'aire de la zone et de la comparé à l'aire additionner de la couverture réseau de nos drones. 
+
+Si c'est le cas alors nous pouvons découper la zone en fonction du nombre de drone à disposition et les envoyer au centres de ces nouvelle zones.
+
+Exemple avec 4 drones :
+
+<img src="/img/exemple1.PNG" alt="exemple1" width="350"/>
+
+Sinon la solution proposer est la suivante :
+
+- Division de la zone avec le nombre de drone à disposition
+- Somme de chacune d'entre elles en fonction de l'importance des batiments
+- Déploiment de drone jusqu'a la zone avec la plus grosse somme
+    - Si tout les drone ont été utiliser alors Stop
+	- Sinon s'il reste des drones alors :
+	    - Déploiment de drone jusqu'a la seconde zone la plus importante
+		- Refaire jusqu'à que le nombre de drone restant = 0
+
+A savoir que lorsqu'un drone est désactiver pour une certaine raison durant leurs déploiment alors nous relançons l'algorithme décris ci dessus avec le nouveau , nombre de drone.
+
+Représenation de l'algorithme avec 8 drones :
+
+<p float="left">
+	<img src="/img/exemple2_1.PNG" alt="exemple2_1" width="350"/>
+	<img src="/img/exemple2_2.PNG" alt="exemple2_2" width="350"/>
+</p>
