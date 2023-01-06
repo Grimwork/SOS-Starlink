@@ -28,9 +28,9 @@ Dans cette simulation nous avons choisis de représenter le système à l'aide d
 Sur la figure ci-dessous nous pouvons remarquer les deux types de drones, ainsi que la modélisation de la ville.
 ![Les deux types de drones](/img/EssembleDesDronesSurUnity.PNG "Les deux types de drones")
 
-|||
-| ------------- | ------------- |
-| ![Ville1](/img/planVille1.PNG "Ville1")  | ![Ville2](/img/planVille2.PNG "VillePlanDessus")  |
+<img src="/img/planVille1.PNG" alt="Ville1" width="350"/>
+<img src="/img/planVille2.PNG" alt="VillePlanDessus" width="350"/>
+
 
 Comme nous pouvons le voir les différents batiments de la ville ont des couleurs associé. Ces couleurs représente l'importance qu'ils representent.
 
