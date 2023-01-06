@@ -40,4 +40,5 @@ Comme nous pouvons le voir les différents batiments de la ville ont des couleur
 - Violet  -> Very High
 
  Lorsque l'on lance la simulation une zone critique aléatoire est choisis dans la ville.
-<img src="/img/zoneCritique.PNG" alt="ZoneCritique" width="200"/>
+ 
+<img src="/img/zoneCritique.PNG" alt="ZoneCritique" width="500"/>
