@@ -40,7 +40,7 @@ Comme nous pouvons le voir les différents batiments de la ville ont des couleur
 - Rouge -> High
 - Violet  -> Very High
 
- Lorsque l'on lance la simulation une zone critique aléatoire est choisie dans la ville. Elle est représentée par un carrée ou rectangle rouge.
+ Lorsqu'on lance la simulation une zone critique aléatoire est choisie dans la ville. Elle est représentée par un carrée ou rectangle rouge.
  
 <img src="/img/zoneCritique.PNG" alt="ZoneCritique" width="500"/>
 
