@@ -29,4 +29,6 @@ Sur la figure ci-dessous nous pouvons remarquer les deux types de drones, ainsi 
 
 ![Les deux types de drones](/img/EssembleDesDronesSurUnity.PNG "Les deux types de drones")
 
-![Ville1](/img/planVille1.PNG "Ville1") ![Ville2](/img/planVille2.PNG "VillePlanDessus")
+| ![Ville1](/img/planVille1.PNG "Ville1")  | ![Ville2](/img/planVille2.PNG "VillePlanDessus")  |
+
+ 
