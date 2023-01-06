@@ -3,6 +3,8 @@
 
 ![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
+Vidéo démo : https://youtu.be/d7H134kagGE 
+
 ### Contexte :
 
 Suite à un incident, une zone accidentée a perdu ses lignes de télécommunications et donc ses accès au réseau. Pour offrir un accès réseau au secours et à la population sur place, un essaim de drone est déployé au-dessus de la zone en guise de relais réseau.
@@ -23,6 +25,8 @@ Pour réaliser ce projet nous avons simuler cela à l'aide de Unity.
 Dans cette simulation nous avons choisis de représenter le système à l'aide de 4 drone qui émettent un réseau aux habitations qu'ils survolent. Ces derniers ont également à charge la reconnaissance du terrain à l'aide de caméra embarqué.
 10 autres drone ont eux à charge de faire un relais réseau de la station au sol jusqu'à la zone critique identifié.
 
-Sur la figure ci-dessous nous pouvons remarquer les deux types de drones.
+Sur la figure ci-dessous nous pouvons remarquer les deux types de drones, ainsi que la modélisation de la ville.
 
 ![Les deux types de drones](/img/EssembleDesDronesSurUnity.PNG "Les deux types de drones")
+
+![Ville1](/img/planVille1.PNG "Ville1") ![Ville2](/img/planVille2.PNG "VillePlanDessus")
